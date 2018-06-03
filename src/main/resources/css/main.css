@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: #aaa;
+}
+
+.game-grid:disabled {
+    -fx-opacity: 0.5;
+}
+
+.game-grid {
+    -fx-background-color: #fff;
+    -fx-opacity: 1;
+}
+
+.game-grid-cell:hover {
+    -fx-background-color: #aaa, #C1FFC1 ;
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+
+.game-grid-cell:pressed {
+    -fx-background-color: #aaa, #65FD65 ;
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+
+.game-grid-cell:highlight {
+    -fx-background-color: #aaa, #FFFE8C ;
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+
+.game-grid-cell:filled {
+    -fx-background-color: transparent;
+}
+
+.game-grid-cell, .game-grid-cell:filled {
+    -fx-background-color: #aaa, #fff;
+    -fx-background-insets: 0, 0 1 1 0 ;
+}
+
+.cell-circle {
+    -fx-fill: #fff;
+    -fx-stroke-width: 2;
+    -fx-stroke: #f44141;
+}
+
+.cell-circle:highlight {
+    -fx-fill: #FFFE8C;
+    -fx-stroke-width: 2;
+    -fx-stroke: #f44141;
+}
+
+.cell-cross-line {
+    -fx-stroke-width: 2;
+    -fx-stroke: #4286f4;
+}
+
+.switch-button {
+    -fx-pref-width: 60;
+    -fx-text-fill: #fff;
+    -fx-font-weight: 700;
+}
+
+.switch-button-x {
+   -fx-background-color: #4286f4;
+}
+
+.switch-button-o {
+    -fx-background-color: #f44141;
+}
+
+#statusBar {
+    -fx-background-color: #ececec;
+}
